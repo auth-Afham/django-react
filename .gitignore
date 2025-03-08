@@ -1,0 +1,43 @@
+# Python/Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+/db.sqlite3
+/db.sqlite3-journal
+
+# Virtual Environments
+venv/
+env/
+*.env
+*.venv
+
+# Django Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Logs
+logs/
+*.log
+
+# Node.js / React
+node_modules/
+*.log
+*.cache
+/.next
+/.nuxt
+
+# Build files
+/build/
+/dist/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# OS / Miscellaneous
+.DS_Store
+Thumbs.db
